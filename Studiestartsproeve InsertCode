@@ -1,0 +1,2 @@
+  Aktie myAktie = new Aktie("Carlsberg", 238);
+            Console.WriteLine($"Aktien {myAktie.Name} koster p.t. {myAktie.Price} kr,-");
