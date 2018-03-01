@@ -1,9 +1,9 @@
-  // Instance fields
+   // Instance fields
         private string _name;
-        private int _price;
+        private double _price;
 
         // Constructor
-        public Aktie(string name, int price)
+        public Aktie(string name, double price)
         {
             _name = name;
             _price = price;
@@ -15,9 +15,13 @@
             get { return _name; }
         }
 
-        public int Price
+        public double Price
         {
             get { return _price; }
             set { _price = value; }
         }
         // Metode
+        public void AktieInformation()
+        {
+            Console.WriteLine($"Aktien {_name} koster p.t. {_price} kr,-");
+        }
