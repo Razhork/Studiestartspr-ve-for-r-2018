@@ -1,2 +1,7 @@
-  Aktie myAktie = new Aktie("Carlsberg", 238);
-            Console.WriteLine($"Aktien {myAktie.Name} koster p.t. {myAktie.Price} kr,-");
+            // Skriv kode til at teste din Aktie-klasse her:
+
+            Aktie myAktie = new Aktie("Carlsberg", 0);
+            myAktie.Price = 240.48;
+            
+            myAktie.AktieInformation();
+            // The LAST line of code should be ABOVE this line
